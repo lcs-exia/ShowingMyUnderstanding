@@ -24,7 +24,7 @@ import PlaygroundSupport
 let canvas = Canvas(width: 300, height: 300)
 
 // Replace this comment and add your code below...
-
+canvas.
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
