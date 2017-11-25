@@ -17,10 +17,20 @@ import Cocoa
 import PlaygroundSupport
 
 // Create canvas
-let canvas = Canvas(width: 300, height: 300)
+let canvas = Canvas(width: 500, height: 500)
 
 // Replace this comment and add your code below...
-
+// Draw Checkerboard
+for x in stride(from: 0, through: 500, by: 100){
+    for y in stride(from: 0, through: 500, by: 100){
+        canvas.drawRectangle(centreX: x, centreY: y, width: 50, height: 50)
+    }
+}
+for x in stride(from: 50, through: 500, by: 100){
+    for y in stride(from: 50, through: 500, by: 100){
+        canvas.drawRectangle(centreX: x, centreY: y, width: 50, height: 50)
+    }
+}
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
