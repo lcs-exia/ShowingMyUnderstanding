@@ -27,6 +27,11 @@ let canvas = Canvas(width: 300, height: 300)
 
 // Generate a random number
 let number = random(from: 0, toButNotIncluding: 2)
+if number == 1{
+    canvas.drawEllipse(centreX: 150, centreY: 150, width: 100, height: 100)
+}else{
+    canvas.drawRectangle(centreX: 150, centreY: 150, width: 100, height: 100)
+}
 
 // Replace this comment and add your code below...
 
