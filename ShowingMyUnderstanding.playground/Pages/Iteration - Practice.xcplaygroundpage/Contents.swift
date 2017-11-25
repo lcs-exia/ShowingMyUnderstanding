@@ -30,7 +30,12 @@ import PlaygroundSupport
 let canvas = Canvas(width: 300, height: 300)
 
 // Replace this comment and add your code below...
-
+for x in stride(from: 15, to: 300, by: 50){
+    for y in stride(from: 290, to: 0, by: -100){
+        canvas.drawRectangle(centreX: x, centreY: y, width: 25, height: 12)
+        canvas.drawRectangle(centreX: x+25, centreY: y-30, width: 25, height: 12)
+    }
+}
 
 /*:
  ## Template code
